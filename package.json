@@ -1,0 +1,17 @@
+{
+	"name": "zkregex",
+	"module": "index.ts",
+	"type": "module",
+	"private": true,
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"@zk-email/zk-regex-compiler": "2.2.3-alpha.0",
+		"@aztec/bb.js": "0.84.0",
+		"@noir-lang/noir_js": "1.0.0-beta.5"
+	}
+}

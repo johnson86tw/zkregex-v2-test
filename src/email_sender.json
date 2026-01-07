@@ -1,0 +1,8 @@
+{
+	"parts": [
+		{ "Pattern": "(\r\n|^)from:" },
+		{ "Pattern": "([^\r\n]+<)" },
+		{ "PublicPattern": ["[A-Za-z0-9._%+-]+", 20] },
+		{ "Pattern": "@gmail.com>" }
+	]
+}
