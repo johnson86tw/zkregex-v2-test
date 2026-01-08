@@ -1,0 +1,8 @@
+[package]
+name = "compiler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+regex-automata = "0.4.13"
+zk-regex-compiler = { git = "https://github.com/zkemail/zk-regex", branch = "feat/new-compiler" }

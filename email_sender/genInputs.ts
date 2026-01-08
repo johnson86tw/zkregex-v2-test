@@ -1,5 +1,5 @@
 import { genCircuitInputs, ProvingFramework } from '@zk-email/zk-regex-compiler'
-import graph from '../src/email_sender_graph.json'
+import graph from './src/email_sender_graph.json'
 
 const inputsJson = genCircuitInputs(
 	JSON.stringify(graph), // NFA graph as JSON string
@@ -11,6 +11,7 @@ const inputsJson = genCircuitInputs(
 
 // 3. Parse the JSON to get all your circuit inputs
 const inputs = JSON.parse(inputsJson)
+console.log(inputs)
 /*
 {
   type: "noir",

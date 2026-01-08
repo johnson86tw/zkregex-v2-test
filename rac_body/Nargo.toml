@@ -1,5 +1,5 @@
 [package]
-name = "zkregex"
+name = "rac_body"
 type = "bin"
 authors = [""]
 

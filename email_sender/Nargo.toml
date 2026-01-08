@@ -1,0 +1,7 @@
+[package]
+name = "email_sender"
+type = "bin"
+authors = [""]
+
+[dependencies]
+zkregex = { tag = "2.2.0", git = "https://github.com/zkemail/zk-regex", directory = "noir" }
