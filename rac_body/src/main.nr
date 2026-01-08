@@ -1,7 +1,7 @@
 mod rac_body;
 
 global MAX_EMAIL_BODY_LENGTH: u32 = 1280;
-global MAX_MATCH_LENGTH: u32 = 150;
+global MAX_MATCH_LENGTH: u32 = 135;
 
 fn main(
     body: BoundedVec<u8, MAX_EMAIL_BODY_LENGTH>,

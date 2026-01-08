@@ -1,11 +1,10 @@
 use regex_automata::meta::Regex;
 use std::fs;
 use std::path::PathBuf;
-use zk_regex_compiler::{gen_from_raw, ProvingFramework};
+use zk_regex_compiler::{ProvingFramework, gen_from_raw};
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let pattern = r#"(?:\r\n|^)from:[^<]*<([A-Za-z0-9._%+-]+@gmail.com)>"#;
-    // let pattern = r#"(?:\r\n|^)from:[^\r\n]+<([A-Za-z0-9._%+-]+)@gmail.com>"#;
 
     let re = Regex::new(pattern)?;
 
