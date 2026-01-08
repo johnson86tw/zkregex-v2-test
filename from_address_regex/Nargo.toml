@@ -1,5 +1,5 @@
 [package]
-name = "email_sender"
+name = "from_address_regex"
 type = "bin"
 authors = [""]
 

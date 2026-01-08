@@ -1,0 +1,7 @@
+[package]
+name = "from_address_seq"
+type = "bin"
+authors = [""]
+
+[dependencies]
+zkemail = { tag = "v.1.0.1-beta.5", git = "https://github.com/zkemail/zkemail.nr", directory = "lib" }
